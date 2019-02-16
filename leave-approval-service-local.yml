@@ -1,0 +1,10 @@
+leave:
+  approval:
+    server:
+      port: 7004
+    config:
+      eureka: http://localhost:8761/eureka
+    mysql:
+      connectionstring: server=localhost;port=3306;database=attendancedb;uid=msdemoadmin;password=sys12345
+    userservice:
+      url: http://localhost:8765/api/user-service/

@@ -1,0 +1,5 @@
+onduty
+  server
+    port: 3000
+  config
+    eureka: http://discovery-service:8761/eureka

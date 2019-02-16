@@ -1,0 +1,6 @@
+discovery: 
+  server: 
+    port: 8761
+  config:
+    url:
+      eureka: http://discovery-service:8761/eureka/

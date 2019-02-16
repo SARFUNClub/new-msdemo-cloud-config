@@ -1,0 +1,12 @@
+auth:
+  server:
+    port: 7001
+  wso2:
+    is:
+      oauth2client:
+        key: qjmhCvs3Ybh8Y8D9znJ02XC6dz0a
+        secrete: ZUMtOBG3tWYStrRZt_DIYwK4MqIa
+    apim:
+      consumer:
+        key: U9Ze2V6cdYIYtD1KFFhEXJ0XInQa
+        secrete: bxkzcNSrop8fMoeO4jw1serZPO4a

@@ -1,0 +1,7 @@
+user:
+  server:
+    port: 7002
+  config:
+    eureka: http://discovery-service:8761/eureka
+  mysql:
+    connectionstring: server=localhost;port=3306;database=userdb;uid=msdemoadmin;password=sys12345

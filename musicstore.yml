@@ -1,0 +1,10 @@
+eureka:
+  client:
+    shouldFetchRegistry: false
+  instance:
+    port: 8761
+mysql:
+  client:
+    database: musicstiredb
+    username: root
+    password: sys12345
