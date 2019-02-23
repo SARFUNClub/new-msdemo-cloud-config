@@ -13,6 +13,6 @@ spring:
     show-sql: false
       
    datasource:
-    url: jdbc:mysql://localhost:3306/attendancedb?autoReconnect=true&useSSL=false
+    url: jdbc:mysql://10.0.0.4:3306/attendancedb?autoReconnect=true&useSSL=false
     username: msdemoadmin
     password: sys12345

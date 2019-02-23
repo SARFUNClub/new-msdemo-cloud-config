@@ -5,6 +5,6 @@ leave:
     config:
       eureka: http://discovery-service:8761/eureka
     mysql:
-      connectionstring: server=localhost;port=3306;database=attendancedb;uid=msdemoadmin;password=sys12345
+      connectionstring: server=10.0.0.4;port=3306;database=attendancedb;uid=msdemoadmin;password=sys12345
     userservice:
-      url: http://localhost:8765/api/user-service/
+      url: http://gateway-service:8765/api/user-service/
