@@ -8,8 +8,8 @@ gateway:
       
 zuul:
   host:
-    connect-timeout-millis: 60000
-    socket-timeout-millis: 60000
+    connect-timeout-millis: 160000
+    socket-timeout-millis: 160000
   prefix: /api
   
   routes:    
