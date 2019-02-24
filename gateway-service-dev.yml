@@ -14,19 +14,19 @@ zuul:
   
   routes:
     auth-service:
-      path: /auth/**
+      path: /**
       service-id: auth-service
       strip-prefix: false
     user-service:
-      path: /users/**
+      path: /**
       service-id: user-service
       strip-prefix: false
     leave-apply-service:
-      path: /leavea/**
+      path: /**
       service-id: leave-apply-service
       strip-prefix: false
     leave-approval-service:
-      path: /leavear/**
+      path: /**
       service-id: leave-approval-service
       strip-prefix: false
     onduty-service:
