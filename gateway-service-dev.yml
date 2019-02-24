@@ -14,19 +14,19 @@ zuul:
   
   routes:
     auth-service:
-      path: /**
+      path: /auth/**
       service-id: auth-service
       strip-prefix: false
     user-service:
-      path: /**
+      path: /users/**
       service-id: user-service
       strip-prefix: false
     leave-apply-service:
-      path: /**
+      path: /leavea/**
       service-id: leave-apply-service
       strip-prefix: false
     leave-approval-service:
-      path: /**
+      path: /leavear/**
       service-id: leave-approval-service
       strip-prefix: false
     onduty-service:
@@ -38,6 +38,6 @@ zuul:
       service-id: musicstore 
       strip-prefix: false
     fortune-teller-service:
-      path: /**
+      path: /fortune/**
       service-id: fortune-teller-service 
       strip-prefix: false
