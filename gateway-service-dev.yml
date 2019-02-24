@@ -15,5 +15,5 @@ zuul:
   routes:    
     leave-apply-service:
       path: /**
-      service-id: leave-apply-service
-      strip-prefix: false
+      serviceId: leave-apply-service
+      strip-prefix: true
