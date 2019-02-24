@@ -8,9 +8,9 @@ auth:
       oauth2client:
         key: tWcshjlu8u_SI_2aiivW7ld5gMEa
         secrete: c81VHhX6M5BcCmk9svHfOcJfDSca
-        url: https://msdemowso2apim.centralus.cloudapp.azure.com:9443/oauth2/token
+        url: https://10.0.0.9:9443/oauth2/token
     apim:
       consumer:
         key: nKcKhIJd3xN_9K4vKxWzcRZtf3Aa
         secrete: 8A3_7s4kncYE41cIvkZLXU_1EZMa
-        url: https://msdemowso2apim.centralus.cloudapp.azure.com:9444/oauth2/token
+        url: https://10.0.0.9:9444/oauth2/token
