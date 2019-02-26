@@ -7,15 +7,14 @@ gateway:
       zipkin: http://zipkin-service:8762
       
 zuul:
+  ignored-services: "*"
   host:
-    connect-timeout-millis: 160000
-    socket-timeout-millis: 160000
+    connect-timeout-millis: 60000
+    socket-timeout-millis: 60000
   prefix: /api
   
   routes:    
     leave-apply-service:
       path: /**
       serviceId: leave-apply-service
-      strip-prefix: false
-      ribbon:
-        ReadTimeout: 100000
+      strip-prefix: true
