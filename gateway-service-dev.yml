@@ -11,9 +11,21 @@ zuul:
     connect-timeout-millis: 60000
     socket-timeout-millis: 60000
   prefix: /api
-  
+    
   routes:
+    auth-service:
+      path: /**
+      service-id: auth-service
+
+    user-service:
+      path: /**
+      service-id: user-service
+      
     leave-apply-service:
       path: /**
       service-id: leave-apply-service
-      strip-prefix: false
+      
+    leave-approval-service:
+      path: /**
+      service-id: leave-approval-service
+      
