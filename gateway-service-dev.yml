@@ -3,8 +3,7 @@ gateway:
     port: 8765
   config:
     url:
-      eureka: http://discovery-service:8761/eureka/
-      zipkin: http://zipkin-service:8762
+      eureka: http://discovery-service:8761/eureka/      
       
 zuul:
   ignored-services: "*"
@@ -13,8 +12,33 @@ zuul:
     socket-timeout-millis: 60000
   prefix: /api
   
-  routes:    
+  routes:
+    auth-service:
+      path: /**
+      service-id: auth-service
+      strip-prefix: false
+    user-service:
+      path: /**
+      service-id: user-service
+      strip-prefix: false
     leave-apply-service:
       path: /**
-      serviceId: leave-apply-service
-      strip-prefix: true
+      service-id: leave-apply-service
+      strip-prefix: false
+    leave-approval-service:
+      path: /**
+      service-id: leave-approval-service
+      strip-prefix: false
+    onduty-service:
+      path: /onduty/**
+      service-id: onduty-service 
+      strip-prefix: false
+    musicstore:
+      path: /musicstore/**
+      service-id: musicstore 
+      strip-prefix: false
+    fortune-teller-service:
+      path: /**
+      service-id: fortune-teller-service 
+      strip-prefix: false
+
