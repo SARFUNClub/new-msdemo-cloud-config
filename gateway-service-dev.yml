@@ -24,7 +24,7 @@ zuul:
     leave-apply-service:
       path: /**
       service-id: leave-apply-service
-      strip-prefix: false
+      strip-prefix: true
     leave-approval-service:
       path: /**
       service-id: leave-approval-service
