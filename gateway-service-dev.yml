@@ -16,16 +16,15 @@ zuul:
     auth-service:
       path: /**
       service-id: auth-service
-      strip-prefix: false
+      
     user-service:
       path: /**
       service-id: user-service
-      strip-prefix: false
+      
     leave-apply-service:
       path: /**
       service-id: leave-apply-service
-      strip-prefix: false
+      
     leave-approval-service:
       path: /**
       service-id: leave-approval-service
-      strip-prefix: false
