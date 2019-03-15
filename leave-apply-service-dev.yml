@@ -13,7 +13,7 @@ spring:
     show-sql: false
       
    datasource:
-    url: jdbc:mysql://msdemomysql.centralus.cloudapp.azure.com:3306/attendancedb?verifyServerCertificate=false&useSSL=false&autoReconnect=true
+    url: jdbc:mysql://bslmsdemomysql.centralus.cloudapp.azure.com:3306/attendancedb?verifyServerCertificate=false&useSSL=false&autoReconnect=true
     username: msdemoadmin
     password: Sys@12345    
     hikari:

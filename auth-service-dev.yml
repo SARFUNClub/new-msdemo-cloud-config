@@ -6,11 +6,11 @@ auth:
   wso2:
     is:
       oauth2client:
-        key: tWcshjlu8u_SI_2aiivW7ld5gMEa
-        secrete: c81VHhX6M5BcCmk9svHfOcJfDSca
-        url: https://msdemowso2apim.centralus.cloudapp.azure.com:9443/oauth2/token
+        key: cEODmM0peHrbAeKefj9Y8R2tyBka
+        secrete: rRLS3QqU2Z6QZ9F_eVbBR6x6zwUa
+        url: https://bslmsdwso2.centralus.cloudapp.azure.com:9443/oauth2/token
     apim:
       consumer:
-        key: nKcKhIJd3xN_9K4vKxWzcRZtf3Aa
-        secrete: 8A3_7s4kncYE41cIvkZLXU_1EZMa
-        url: https://msdemowso2apim.centralus.cloudapp.azure.com:9444/oauth2/token
+        key: BHIsC6b9Cln4u5HOhiQM1d7MY70a
+        secrete: tdYrl2nQPSphmNVuSpF2VFLheosa
+        url: https://bslmsdwso2.centralus.cloudapp.azure.com:9444/oauth2/token
