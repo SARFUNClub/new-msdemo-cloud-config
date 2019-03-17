@@ -4,4 +4,4 @@ user:
   config:
     eureka: http://discovery-service:8761/eureka
   mysql:
-    connectionstring: server=msdemomysql.centralus.cloudapp.azure.com;port=3306;database=userdb;uid=msdemoadmin;password=sys12345
+    connectionstring: server=bslmsdemomysql.centralus.cloudapp.azure.com;port=3306;database=userdb;uid=msdemoadmin;password=sys12345
