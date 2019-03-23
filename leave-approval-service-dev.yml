@@ -5,6 +5,6 @@ leave:
     config:
       eureka: http://discovery-service:8761/eureka
     mysql:
-      connectionstring: server=bslmsdemomysql.centralus.cloudapp.azure.com;port=3306;database=attendancedb;uid=msdemoadmin;password=sys12345
+      connectionstring: server=bslmsdemomysql.centralus.cloudapp.azure.com;port=3306;database=attendancedb;uid=msdemoadmin;password=Sys@12345
     userservice:
       url: http://gateway-service:8765/user-service/
